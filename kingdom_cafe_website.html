@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#102c25">
+<title>The Kingdom Cafe | Restaurant • Bakery</title>
+<style>
+:root{--green:#102c25;--green2:#1d493d;--gold:#d8b45a;--cream:#f7f3e9;--ink:#20251f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+header{background:rgba(16,44,37,.97);color:white;position:sticky;top:0;z-index:5;border-bottom:1px solid #ffffff20}
+.nav{max-width:1120px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.3px}.crest{width:43px;height:43px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:22px}
+nav{display:flex;gap:24px;align-items:center}nav a{color:#fff;text-decoration:none;font-size:14px}nav a:hover{color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:#17251f;text-decoration:none;padding:12px 20px;border-radius:30px;font-weight:700;border:0}
+.hero{min-height:590px;background:linear-gradient(90deg,rgba(7,25,20,.88),rgba(7,25,20,.35)),radial-gradient(ellipse at 75% 35%,#426d50,#17382e 48%,#0b211b);color:#fff;display:flex;align-items:center}
+.hero-inner{max-width:1120px;width:100%;margin:auto;padding:85px 22px}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:700}
+h1{font-family:Georgia,serif;font-size:clamp(42px,7vw,76px);line-height:1.05;max-width:700px;margin:18px 0}.hero p{font-size:18px;color:#e7e9e3;max-width:570px;margin-bottom:30px}
+.hero-note{margin-top:24px;color:#eee;font-size:13px}.section{max-width:1120px;margin:auto;padding:78px 22px}.section-head{text-align:center;max-width:650px;margin:0 auto 38px}.section-head h2{font: bold clamp(30px,4vw,42px) Georgia,serif;color:var(--green);margin:8px 0}.section-head p{color:#68716b}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{background:white;border-radius:18px;padding:28px;box-shadow:0 8px 28px #14251a0c}.feature .symbol{font-size:28px}.feature h3{color:var(--green);margin:12px 0 5px}
+.menu-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.menu-card{background:white;border-radius:16px;overflow:hidden;border:1px solid #e8e2d5}.food-art{height:145px;display:grid;place-items:center;font-size:54px;background:linear-gradient(135deg,#e8d8b5,#f8f0df)}.menu-card h3{margin:15px 16px 3px;color:var(--green)}.menu-card p{margin:0 16px 18px;color:#69716b;font-size:13px}
+.about{background:var(--green);color:white}.about-inner{max-width:1120px;margin:auto;padding:75px 22px;display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.about h2{font: bold 40px Georgia,serif;color:var(--gold);margin:8px 0 18px}.about p{color:#e2e8e2}.about-mark{min-height:280px;border:1px solid #d8b45a66;border-radius:24px;display:grid;place-items:center;background:radial-gradient(circle,#285442,#102c25 65%)}.lion{font-size:100px;color:var(--gold);text-align:center}.lion small{display:block;font:12px Arial;letter-spacing:4px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.contact-box{background:white;border-radius:18px;padding:26px}.contact-box h3{color:var(--green)}.contact-box a{color:var(--green2)}
+footer{background:#0a1e19;color:#c9d3cd;text-align:center;padding:25px 20px;font-size:13px}
+@media(max-width:760px){nav{gap:12px}nav a:not(.btn){display:none}.features{grid-template-columns:1fr}.menu-grid{grid-template-columns:repeat(2,1fr)}.about-inner,.contact-grid{grid-template-columns:1fr}.hero{min-height:520px}.section{padding:58px 18px}}
+@media(max-width:390px){.menu-grid{grid-template-columns:1fr}.brand{font-size:14px}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+  <div class="brand"><div class="crest">♛</div><span>THE KINGDOM CAFE</span></div>
+  <nav><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a><a class="btn" href="#contact">Visit Us</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+  <div class="eyebrow">Restaurant • Bakery • Cafe</div>
+  <h1>A royal taste in every bite.</h1>
+  <p>Welcome to The Kingdom Cafe — a warm place to enjoy delicious food, freshly baked treats and good moments with family and friends.</p>
+  <a class="btn" href="#menu">Explore our menu</a>
+  <div class="hero-note">Good food · Warm hospitality · Memorable moments</div>
+</div></section>
+<section class="section"><div class="section-head"><div class="eyebrow">The Kingdom experience</div><h2>More than just a cafe</h2><p>A welcoming spot for a relaxed meal, a sweet treat or a catch-up over something delicious.</p></div>
+<div class="features">
+  <article class="feature"><div class="symbol">🍽️</div><h3>Restaurant</h3><p>Enjoy satisfying meals in a comfortable setting.</p></article>
+  <article class="feature"><div class="symbol">🥐</div><h3>Fresh bakery</h3><p>Make your day sweeter with bakery favourites and desserts.</p></article>
+  <article class="feature"><div class="symbol">☕</div><h3>Cafe moments</h3><p>Take a break, meet friends and make yourself at home.</p></article>
+</div></section>
+<section class="section" id="menu"><div class="section-head"><div class="eyebrow">A taste to remember</div><h2>Popular picks</h2><p>A few highlights inspired by the dishes and treats guests mention. Ask the team for today's full menu.</p></div>
+<div class="menu-grid">
+  <article class="menu-card"><div class="food-art">🍛</div><h3>Wazwan</h3><p>Traditional Kashmiri flavours.</p></article>
+  <article class="menu-card"><div class="food-art">🍗</div><h3>Butter Chicken</h3><p>A rich and comforting favourite.</p></article>
+  <article class="menu-card"><div class="food-art">🍕</div><h3>Pizza</h3><p>A cheesy treat to share.</p></article>
+  <article class="menu-card"><div class="food-art">🍰</div><h3>Cheesecake</h3><p>A creamy dessert for sweet moments.</p></article>
+</div></section>
+<section class="about" id="about"><div class="about-inner">
+  <div><div class="eyebrow">Our story</div><h2>Welcome to The Kingdom</h2><p>We bring restaurant dining, cafe comfort and bakery treats together in one place. Whether you're stopping by for a meal or something sweet, we look forward to welcoming you.</p><a class="btn" href="#contact">Plan your visit</a></div>
+  <div class="about-mark"><div class="lion">♛<small>THE KINGDOM CAFE</small></div></div>
+</div></section>
+<section class="section" id="contact"><div class="section-head"><div class="eyebrow">Come say hello</div><h2>Visit The Kingdom Cafe</h2><p>We'd love to welcome you. Check the live business listing for the latest directions and opening hours.</p></div>
+<div class="contact-grid">
+  <div class="contact-box"><h3>Find us</h3><p><strong>The Kingdom Cafe Restaurant Bakery</strong></p><p>Use Google Maps for the exact location and directions.</p><a href="https://www.google.com/maps/search/?api=1&query=The+Kingdom+Cafe+Restaurant+Bakery" target="_blank" rel="noopener">Open directions ↗</a></div>
+  <div class="contact-box"><h3>Opening hours</h3><p>Hours may change on holidays. Please check the current Google business listing before visiting.</p><p><strong>Listed closing time:</strong> 10:30 PM</p></div>
+</div></section>
+</main>
+<footer>© <span id="year"></span> The Kingdom Cafe Restaurant Bakery. All rights reserved.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
