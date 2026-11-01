@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10271f">
+<meta name="description" content="The Kingdom Cafe Restaurant Bakery in Shampora, Qazigund. Restaurant dining, bakery treats and cafe moments.">
+<title>The Kingdom Cafe | Restaurant • Bakery • Cafe</title>
+<style>
+:root{--forest:#10271f;--forest2:#193b2e;--gold:#d7b56d;--cream:#f7f3e9;--ink:#20251f;--muted:#73786f}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}a{color:inherit}
+header{position:sticky;top:0;z-index:10;background:rgba(13,35,27,.97);backdrop-filter:blur(12px);border-bottom:1px solid #d7b56d55;color:#fff}
+.nav{max-width:1180px;margin:auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:800;letter-spacing:1px;font-size:15px;white-space:nowrap}
+.crest{width:46px;height:46px;border:1.5px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:26px;box-shadow:inset 0 0 0 4px #d7b56d22}
+nav{display:flex;align-items:center;gap:25px}nav a{text-decoration:none;font-size:13px;color:#f5f2e9}nav a:hover{color:var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--gold);color:#17251e;text-decoration:none;padding:13px 21px;border-radius:3px;font-weight:800;font-size:13px;letter-spacing:.4px;transition:.2s;border:1px solid var(--gold)}.btn:hover{background:#e8ca8b;transform:translateY(-2px)}
+.btn-outline{background:transparent;color:#fff;border-color:#d7b56d88}.btn-outline:hover{color:#17251e}
+.hero{min-height:670px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,rgba(7,24,18,.94) 0%,rgba(7,24,18,.76) 48%,rgba(7,24,18,.2) 100%),url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=2000&q=85') center/cover no-repeat}
+.hero-inner{width:100%;max-width:1180px;margin:auto;padding:100px 24px}.eyebrow{color:var(--gold);font-size:11px;font-weight:800;letter-spacing:3px;text-transform:uppercase}
+h1,h2,h3{font-family:Georgia,'Times New Roman',serif}h1{font-size:clamp(48px,7vw,82px);line-height:1.03;max-width:740px;margin:20px 0}.hero p{max-width:560px;color:#eee9dc;font-size:17px;margin:0 0 30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.hero-note{margin-top:30px;color:#e5ddcb;font-size:12px;letter-spacing:1px}
+.rating-strip{background:#eae3d3;border-bottom:1px solid #ded4c0}.rating-inner{max-width:1180px;margin:auto;padding:17px 24px;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;font-size:14px}.stars{color:#bd913c;letter-spacing:2px;font-size:17px}
+.section{max-width:1180px;margin:auto;padding:86px 24px}.section-head{text-align:center;max-width:680px;margin:0 auto 42px}.section-head h2{font-size:clamp(34px,4vw,48px);line-height:1.1;color:var(--forest);margin:12px 0}.section-head p{color:var(--muted);margin:0}
+.experience{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.experience article{padding:30px 26px;background:#fff;border:1px solid #e8dfce;text-align:center}.experience .icon{font-size:30px}.experience h3{color:var(--forest);font-size:23px;margin:12px 0 5px}.experience p{color:var(--muted);font-size:14px;margin:0}
+.menu-section{background:#eee8da}.menu-section .section{padding-top:82px;padding-bottom:82px}.menu-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.menu-card{background:#fff;overflow:hidden;border:1px solid #e5dccb}.menu-card img{width:100%;height:190px;display:block;object-fit:cover}.menu-card div{padding:18px}.menu-card h3{margin:0 0 4px;color:var(--forest);font-size:21px}.menu-card p{margin:0;color:var(--muted);font-size:13px}
+.about{background:var(--forest);color:white}.about-inner{max-width:1180px;margin:auto;padding:82px 24px;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about h2{font-size:clamp(35px,4vw,48px);line-height:1.1;color:var(--gold);margin:12px 0 18px}.about p{color:#e2e6df}.about-visual{min-height:340px;background:linear-gradient(145deg,#274a39,#0b2119);border:1px solid #d7b56d88;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden}.about-visual:before,.about-visual:after{content:"";position:absolute;width:260px;height:260px;border:1px solid #d7b56d66;border-radius:50%}.about-visual:after{width:210px;height:210px}.about-emblem{z-index:1;color:var(--gold);font-size:95px;line-height:1}.about-emblem small{display:block;font:800 12px Arial;letter-spacing:4px;margin-top:18px}
+.contact-section{background:var(--cream)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.contact-card{background:#fff;padding:30px;border:1px solid #e7dece}.contact-card h3{color:var(--forest);font-size:25px;margin:0 0 14px}.contact-card p{color:#646c64;margin:7px 0}.contact-card a:not(.btn){color:var(--forest2);font-weight:700}.contact-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.contact-actions .btn{font-size:12px}
+.map-link{display:inline-block;margin-top:10px}.hours{font-size:13px;color:var(--muted)}
+footer{background:#091a14;color:#c8d0c9;text-align:center;padding:28px 18px;font-size:12px}footer strong{color:var(--gold)}
+@media(max-width:800px){.nav{padding:11px 16px}.brand{font-size:13px}.crest{width:40px;height:40px;flex:0 0 40px}nav{gap:13px}nav a:not(.nav-cta){display:none}.hero{min-height:620px;background-position:60% center}.hero-inner{padding:80px 20px}.hero p{font-size:16px}.section{padding:65px 18px}.experience{grid-template-columns:1fr}.menu-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.menu-card img{height:155px}.about-inner{grid-template-columns:1fr;padding:65px 18px}.about-visual{min-height:250px}.contact-grid{grid-template-columns:1fr}}
+@media(max-width:390px){.brand{font-size:11px;letter-spacing:.5px}.nav-cta{padding:10px 12px;font-size:11px}.menu-grid{gap:10px}.menu-card img{height:125px}.menu-card div{padding:13px}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<a class="brand" href="#home"><span class="crest">♛</span><span>THE KINGDOM CAFE</span></a>
+<nav><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">Our Story</a><a href="#contact">Contact</a><a class="btn nav-cta" href="https://wa.me/917889777088?text=Hello%20The%20Kingdom%20Cafe%2C%20I%20would%20like%20to%20know%20more." target="_blank" rel="noopener">WhatsApp Us</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+<div class="eyebrow">Restaurant · Bakery · Cafe</div>
+<h1>A royal taste<br>in every moment.</h1>
+<p>Discover delicious food, freshly baked treats and warm hospitality at The Kingdom Cafe. Your place for good food and memorable moments.</p>
+<div class="hero-actions"><a class="btn" href="#menu">Explore the menu</a><a class="btn btn-outline" href="https://wa.me/917889777088?text=Hello%20The%20Kingdom%20Cafe" target="_blank" rel="noopener">Order on WhatsApp</a></div>
+<div class="hero-note">GOOD FOOD &nbsp;·&nbsp; WARM HOSPITALITY &nbsp;·&nbsp; KINGDOM EXPERIENCE</div>
+</div></section>
+<div class="rating-strip"><div class="rating-inner"><span class="stars">★★★★★</span><strong>4.6 / 5</strong><span>Based on 742 Google reviews shown on the business listing</span></div></div>
+<section class="section"><div class="section-head"><div class="eyebrow">The Kingdom experience</div><h2>More than just a cafe</h2><p>A welcoming place to share a meal, enjoy a dessert or slow down with your favourite people.</p></div>
+<div class="experience"><article><div class="icon">🍽️</div><h3>Restaurant</h3><p>Enjoy satisfying meals and comforting flavours in a relaxed setting.</p></article><article><div class="icon">🥐</div><h3>Fresh Bakery</h3><p>Discover bakery favourites and sweet treats for every occasion.</p></article><article><div class="icon">☕</div><h3>Cafe Moments</h3><p>Meet friends, take a break and make yourself at home.</p></article></div></section>
+<div class="menu-section" id="menu"><section class="section"><div class="section-head"><div class="eyebrow">Made to be enjoyed</div><h2>Guest favourites</h2><p>A few highlights mentioned by visitors. Ask our team for today's complete menu and availability.</p></div>
+<div class="menu-grid">
+<article class="menu-card"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80" alt="Traditional Kashmiri meal"><div><h3>Wazwan</h3><p>Traditional Kashmiri flavours.</p></div></article>
+<article class="menu-card"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=700&q=80" alt="Butter chicken curry"><div><h3>Butter Chicken</h3><p>A rich and comforting favourite.</p></div></article>
+<article class="menu-card"><img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=700&q=80" alt="Freshly baked pizza"><div><h3>Pizza</h3><p>A cheesy treat to share.</p></div></article>
+<article class="menu-card"><img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=700&q=80" alt="Creamy cheesecake dessert"><div><h3>Cheesecake</h3><p>A creamy finish to a lovely meal.</p></div></article>
+</div></section></div>
+<section class="about" id="about"><div class="about-inner"><div><div class="eyebrow">A place to gather</div><h2>Welcome to The Kingdom</h2><p>We bring restaurant dining, cafe comfort and bakery treats together in one place. Whether you're stopping by for a meal, meeting friends or craving something sweet, we look forward to welcoming you.</p><a class="btn" href="#contact">Plan your visit</a></div><div class="about-visual"><div class="about-emblem">♛<small>THE KINGDOM CAFE</small></div></div></div></section>
+<section class="section contact-section" id="contact"><div class="section-head"><div class="eyebrow">We look forward to seeing you</div><h2>Visit The Kingdom Cafe</h2><p>Find us in Shampora, Qazigund. Call or message us for enquiries and orders.</p></div>
+<div class="contact-grid">
+<div class="contact-card"><h3>Find our cafe</h3><p><strong>The Kingdom Cafe Restaurant Bakery</strong></p><p>Shampora, near MRF Tyres, Qazigund, Jammu and Kashmir 192221</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Shampora%2C%20near%20MRF%20Tyres%2C%20Qazigund%2C%20Jammu%20and%20Kashmir%20192221" target="_blank" rel="noopener">Get directions ↗</a></div>
+<div class="contact-card"><h3>Call or WhatsApp</h3><p>For orders and enquiries, contact our team.</p><p><strong>Phone:</strong> <a href="tel:+917889777088">7889777088</a></p><div class="contact-actions"><a class="btn" href="tel:+917889777088">Call now</a><a class="btn" href="https://wa.me/917889777088?text=Hello%20The%20Kingdom%20Cafe%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp order</a></div><p class="hours">Listed closing time: 10:30 PM. Please check the live listing for current hours.</p></div>
+</div></section>
+</main>
+<footer>© <span id="year"></span> <strong>The Kingdom Cafe</strong> · Restaurant · Bakery · Cafe</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
